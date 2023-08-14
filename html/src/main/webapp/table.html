@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML</title>
+        <style>
+            /* CSS */
+            table, td, th {
+                border: 1px solid darkgray;
+            }
+        </style>
+	</head>
+	<body>
+		<h1>HTML Table</h1>
+        <!-- 테이블 관련 태그:
+             <table: 테이블 시작, 끝
+             <caption: 테이블 제목.
+             <thead>: table header.
+             <tbody>: table body.
+             <tfoot>: table footer.
+             <tr>: table row(행).
+             <td>: table data. 셀 데이터.
+             <th>: table cell header. 행 또는 열의 이름을 표시.
+        -->
+        
+        <table>
+            <caption>Front-End 시험 성적</caption>
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>JavaScript</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>100</td>
+                    <td>90</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>합계</td>
+                <td>300</td>
+                <td>290</td>
+                <td>280</td>
+            </tfoot>
+        </table>
+        
+        <hr />
+        <table>
+            <caption>회원 정보</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>PW</th>
+                    <th>Email</th>
+                </tr>
+	        <tbody>
+                <tr>
+                    <td>정아</td>
+                    <td>1004</td>
+                    <td>죵아죵아@email.com</td>
+                <tr>
+                <tr>
+                    <td>랄랄라</td>
+                    <td>98989</td>
+                    <td>lalala@email.com</td>
+                <tr>
+                <tr>
+                    <td>점심</td>
+                    <td>1212</td>
+                    <td>lunch@email.com</td>
+                <tr>
+            </tbody>
+         </table>
+         
+         <hr />
+         <table border="1">
+            <thead>
+                <tr>
+                   <th>이름</th>
+                   <th colspan="2">전화번호</th>
+                </tr>
+            <tbody>
+                <tbody>
+                   <tr>
+                      <td>홍길동</td>
+                      <td>010-1234-5688</td>
+                      <td>02-1234-5678</td>
+                   <tr>
+                   <tr>
+                      <td>아이티윌</td>
+                      <td>010-0000-0000</td>
+                      <td>02-0000-0000</td>
+                   <tr>
+            </tbody>
+         </table> 
+         <hr />
+         <table border="1">
+            <thead>
+                <tr>
+                   <th>이름</th>
+                   <td>홍길동</td>
+                </tr>
+            <tbody>
+                <tbody>
+                   <tr>
+                      <th rowspan="2" >전화번호</th>
+                      <td>010-1234-5678</td>
+                   </tr>   
+                   <tr>
+                       <td>02-1234-5678</td>
+                   </tr>
+            </tbody>
+         </table>     
+    </body>        
+</html>
